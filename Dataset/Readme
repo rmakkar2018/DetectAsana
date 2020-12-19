@@ -1,5 +1,7 @@
 #Dataset Description
-The data was collected from 4 subjects(2 male and 2 female subjects) for 8 hours. This activities are classified into 5 classes: 1- Sitting, 2- Standing, 3- Walking, 4- Standing-up and 5- Sitting-down. The data was colllected using wearable accelerometer mounted on their right arm, left thigh, waist and right ankle wach giving reading along the X-axis,Y-axis and Z-axis. The dataset consists of 165,633 samples.
+The data was collected from 4 subjects(2 male and 2 female subjects) for 8 hours. This activities are classified into 5 classes: 
+1- Sitting, 2- Standing, 3- Walking, 4- Standing-up and 5- Sitting-down. The data was colllected using wearable accelerometer mounted
+on their right arm, left thigh, waist and right ankle wach giving reading along the X-axis,Y-axis and Z-axis. The dataset consists of 165,633 samples.
 
 Attributes of the data:
 1- Name
