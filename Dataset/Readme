@@ -1,2 +1,30 @@
-#Dataset description
+#Dataset Description
+The data was collected from 4 subjects(2 male and 2 female subjects) for 8 hours. This activities are classified into 5 classes:
+1- Sitting, 2- Standing, 3- Walking, 4- Standing-up and 5- Sitting-down. The data was colllected using wearable accelerometer mounted on 
+their right arm, left thigh, waist and right ankle wach giving reading along the X-axis,Y-axis and Z-axis. The dataset consists of 
+165,633 samples.
 
+Attributes of the data:
+1- Name
+2- Gender
+3- Age
+4- Height(in meter)
+5- Weight
+6- BMI(Body Mass Index)
+7- x1 (accelerometer 1's reading along X-axis)
+8- y1 (accelerometer 1's reading along Y-axis)
+9- z1 (accelerometer 1's reading along Z-axis)
+10- x2 (accelerometer 2's reading along X-axis)
+11- y2 (accelerometer 2's reading along Y-axis)
+12- z2 (accelerometer 2's reading along Z-axis)
+13- x3 (accelerometer 3's reading along X-axis)
+14- y3 (accelerometer 3's reading along Y-axis)
+15- z3 (accelerometer 3's reading along Z-axis)
+
+Twelve more features (Norm, Pitch and Roll) were manually calculated for each accelerometer with 1 second time window with
+150ms overlapping. 
+
+For any further details you can see the below links.
+Dataset link: https://archive.ics.uci.edu/ml/datasets/Wearable+Computing%3A+Classification+of+Body+Postures+and+Movements+(PUC-Rio)
+Research paper link: https://link.springer.com/chapter/10.1007/978-3-642-34459-6_6
+Reference: Ugulino, W., Cardador, D., Vega, K., Velloso, E., Milidiú, R., & Fuks, H. (2012, October). Wearable computing: Accelerometers’ data classification of body postures and movements. In Brazilian Symposium on Artificial Intelligence (pp. 52-61). Springer, Berlin, Heidelberg.
