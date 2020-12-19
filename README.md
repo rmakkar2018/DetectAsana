@@ -30,7 +30,7 @@ On left thigh:
 
 # Now we begin with Ml algoritms using different preprocessing techniques and feature set:
 
-# 1-Using all the features(Extracted and Raw features) 
+#1-Using all the features(Extracted and Raw features) 
 1- Logistic Regression:
 Evaluation Matrix:
 
@@ -49,7 +49,7 @@ Evaluation Matrix:
 6- Guassian Naive Bayes:
 Evaluation Matrix:
 
-# 2-Using class weights technique to handle data imbalance
+#2-Using class weights technique to handle data imbalance
 1- Logistic Regression:
 Evaluation Matrix:
 
@@ -68,7 +68,7 @@ Evaluation Matrix:
 6- Guassian Naive Bayes:
 Evaluation Matrix:
 
-# 3-Using Raw features
+#3-Using Raw features
 1- Logistic Regression:
 Evaluation Matrix:
 
@@ -87,7 +87,7 @@ Evaluation Matrix:
 6- Guassian Naive Bayes:
 Evaluation Matrix:
 
-# 4-Using Undersampling technique to handle data imbalance
+#4-Using Undersampling technique to handle data imbalance
 1- Logistic Regression:
 Evaluation Matrix:
 
@@ -106,7 +106,7 @@ Evaluation Matrix:
 6- Guassian Naive Bayes:
 Evaluation Matrix:
 
-# 5-Using Monte Carlo Undersampling technique to handle data imbalance
+#5-Using Monte Carlo Undersampling technique to handle data imbalance
 1- Logistic Regression:
 Evaluation Matrix:
 
