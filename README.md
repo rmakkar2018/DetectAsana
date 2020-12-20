@@ -1,14 +1,14 @@
 # DetectAsana
 
-#Code folder
+# Code folder
 The Code folder contains the .pynb file with the implementation of various Machine Learning Algotirhm's on PUC-RIO dataset for training and pre-processing of data. 
 
 In the Feature Extraction Section:
 Apart from the existing features in PUC-RIO dataset, we have manually extracted other features.We calculated norm=sqrt(x^2 + y^2 + z^2), pitch=tan_inverse(y/(x^2+z^2)) and roll=tan_inverse(-x/z) and added those to the features.
 
 In the Resampling and Feature Selection:
-Class weights: We have also used Class weights technique to handle dataimbalance which punishing classes with more samples lesser for each misclassification. 
-Oversampling: We have used the ADASYN(Adaptive Synthetic) sampling to deal with data imbalance. 
+Class weights: We have also used Class weights technique to handle dataimbalance which punishing classes with more samples lesser for each misclassification.
+Oversampling: We have used the ADASYN(Adaptive Synthetic) sampling to deal with data imbalance.
 Undersampling: We have also used undersampling techniques like monte carlo to deal with the data imbalance.
 
 In the "Classwise Comparison of raw data and oversampled data" section: We compare the original data wit the data we get after oversampling.
@@ -38,9 +38,11 @@ Support Vector Classification and Guassian Naive Bayes and generating Evaluation
 
 #5-Using Monte Carlo Undersampling technique to handle data imbalance and then using the data for Ml Models: Logistic Regression, SGD Classifier, Decision Tree Classifier, Random Forest Classifier, Support Vector Classification and Guassian Naive Bayes and generating Evaluation matrix for all cases.
 
+# Final pipeline
 The Code folder also contains a .ipnb file which is a complete main pipeline for the classification task after analysing their affects on the performance.
 The Feature set that we have used is . The Resampling technique that we have used is    to deal with the data imbalance. Finally we have used the best accuracy giving ML model i.e. Random Forest for the classification task. The final accuracy that we get using the main pipeline is : .
 
+# Other files
 #Dataset folder
 The dataset folder contains the PUC-RIO dataset in .csv format along with a Readme file which contains the dataset's description.
 
