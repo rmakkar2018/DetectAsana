@@ -50,5 +50,7 @@ The dataset folder contains the PUC-RIO dataset in .csv format along with a Read
 
 #Mid-Progress Report.pdf is the midsem-progress report of Machine Learning Project submitted on Nov 22.
 
+#Pipeline.pdf is the final pipeline suggested for the classification task
+
 # Weights folder
 It consists of the final model trained using the suggested pipeline
