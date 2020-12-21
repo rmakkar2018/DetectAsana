@@ -1,7 +1,7 @@
 # DetectAsana
 
 # Code folder
-The Code folder contains the DetectAsana_ML_Project.ipynb file with the implementation of various Machine Learning Algotirhm's on PUC-RIO dataset for training and pre-processing of data. 
+The Code folder contains the **DetectAsana_ML_Project.ipynb** file with the implementation of various Machine Learning Algotirhm's on PUC-RIO dataset for training and pre-processing of data. 
 
 In the Feature Extraction Section:
 Apart from the existing features in PUC-RIO dataset, we have manually extracted other features.We calculated norm=sqrt(x^2 + y^2 + z^2), pitch=tan_inverse(y/(x^2+z^2)) and roll=tan_inverse(-x/z) and added those to the features.
@@ -20,7 +20,7 @@ After that we have perform the feature analysis by plotting all four acceleromet
 #Raw featue vs Extracted feature analysis:
 We have compared the performance using the above two feature set and plotted the confusion matrix for the same with Logistic Regression and Decision Trees. 
 
-# Using various Ml algoritms with different preprocessing techniques and feature set:
+# Using various ML algoritms with different preprocessing techniques and feature set:
 
 #1-Using all the features(Extracted and Raw features) for Ml Models: Logistic Regression, SGD Classifier, Decision Tree Classifier, Random Forest Classifier, 
 Support Vector Classification and Guassian Naive Bayes and generating Evaluation matrix for all cases.
@@ -39,8 +39,8 @@ Support Vector Classification and Guassian Naive Bayes and generating Evaluation
 #5-Using Monte Carlo Undersampling technique to handle data imbalance and then using the data for Ml Models: Logistic Regression, SGD Classifier, Decision Tree Classifier, Random Forest Classifier, Support Vector Classification and Guassian Naive Bayes and generating Evaluation matrix for all cases.
 
 # Final pipeline
-The Code folder also contains a DetectAsana_final.ipynb file which is a complete main pipeline for the classification task after analysing their affects on the performance.
-The Feature set that we have used are 'weight', 'body_mass_index', 'pitch1', 'y3', 'roll4', 'y4', 'pitch2', 'z1', 'z4', 'z2', 'norm1', 'x4', 'y2', 'y1', 'x3', 'z3', 'x2', 'roll1', 'norm4', 'norm2', 'norm3', 'x1. The Resampling technique that we have used is Bagging/Monte Carlo to deal with the data imbalance. Finally we have used the best accuracy giving ML model i.e. Random Forest for the classification task. The final accuracy that we get using the main pipeline is : 99.5%.
+The Code folder also contains a **DetectAsana_final.ipynb** file which is a complete main pipeline for the classification task after analysing their affects on the performance.
+The Feature set that we have used are **'weight', 'body_mass_index', 'pitch1', 'y3', 'roll4', 'y4', 'pitch2', 'z1', 'z4', 'z2', 'norm1', 'x4', 'y2', 'y1', 'x3', 'z3', 'x2', 'roll1', 'norm4', 'norm2', 'norm3', 'x1'**. The Resampling technique that we have used is **Bagging/Monte Carlo** to deal with the data imbalance. Finally we have used the best accuracy giving ML model i.e. **Random Forest** for the classification task. The final accuracy that we get using the main pipeline is : **99.5%.**
 
 # Other files
 #Dataset folder
@@ -49,3 +49,6 @@ The dataset folder contains the PUC-RIO dataset in .csv format along with a Read
 #DetectAsana Proposal.pdf is the project proposal submitted for the Machine Learning Project on Sept 10.
 
 #Mid-Progress Report.pdf is the midsem-progress report of Machine Learning Project submitted on Nov 22.
+
+**#Weights folder**
+It consists the the final model trained using the suggested pipeline
